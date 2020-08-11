@@ -45,5 +45,13 @@ Devices with Android 7.0 or later are recommended.
 ## Result
 After the four tasks are executed concurrently, the other four tasks are executed in serial mode.
 
+## Question or issues
+If you have questions about how to use HMS samples, try the following options:
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
+**huawei-mobile-services**.
+- [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) HMS Core Module is great for general questions, or seeking recommendations and opinions.
+
+If you run into a bug in our samples, please submit an [issue](https://github.com/HMS-Core/hms-accelerate-demo/issues) to the Repository. Even better you can submit a [Pull Request](https://github.com/HMS-Core/hms-accelerate-demo/pulls) with a fix.
+
 ## License
 The sample of HUAWEI Accelerate Kit has obtained the [Apache 2.0 license.](http://www.apache.org/licenses/LICENSE-2.0).

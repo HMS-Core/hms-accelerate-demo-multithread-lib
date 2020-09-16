@@ -29,7 +29,7 @@ dispatch_release(): releases queues.
 Before you get started, you must register as a HUAWEI developer and complete identity verification on [HUAWEI Developers](https://developer.huawei.com/consumer/en/). For details, please refer to [Registration and Verification](https://developer.huawei.com/consumer/en/doc/start/10104).
 ### 2. Create an app and apply for a agconnect-services.json.
 Create an app and set package type to APK (android app). Apply for the agconnect-services.json file on HUAWEI Developers. For details, please refer to [Adding the AppGallery Connect Configuration File].
-See details: [HUAWEI Accelerate Development Preparation](hhttps://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050980807)
+See details: [HUAWEI Accelerate Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050980807)
 ### 3. Build
 To build this sample, import the sample to Android Studio (3.x +), download agconnect-services.json from AppGallery Connect, and add the file to the app's root directory app of the demo app.
 

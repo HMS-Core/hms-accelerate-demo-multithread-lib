@@ -40,7 +40,7 @@ Download the sample code and open it in Android Studio. Ensure that your device 
 You can tap buttons in your app to experience rich services of HUAWEI Accelerate Kit.
 
 ## Supported Environments
-Devices with Android 7.0 or later are recommended.
+Devices with Android 5.0 or later are recommended.
 
 ## Result
 After the four tasks are executed concurrently, the other four tasks are executed in serial mode.

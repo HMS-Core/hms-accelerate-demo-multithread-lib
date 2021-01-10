@@ -57,18 +57,6 @@ set_target_properties(
         PROPERTIES IMPORTED_LOCATION
         ${CMAKE_SOURCE_DIR}/../../../libs/${ANDROID_ABI}/libBlocksRuntime.so)
 
-add_custom_command(
-        TARGET native-lib POST_BUILD
-        COMMAND
-        ${CMAKE_COMMAND} -E copy
-        ${CMAKE_SOURCE_DIR}/../../../libs/${ANDROID_ABI}/libdispatch.so
-        ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}/
-        COMMAND
-        ${CMAKE_COMMAND} -E copy
-        ${CMAKE_SOURCE_DIR}/../../../libs/${ANDROID_ABI}/libBlocksRuntime.so
-        ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}/
-)
-
 target_compile_options(native-lib PRIVATE -fblocks)
 
 # Specifies libraries CMake should link to your target library. You
